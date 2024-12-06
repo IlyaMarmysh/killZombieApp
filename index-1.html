@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zombie</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="game-panel">
+        <div>
+            <button id="sound-btn">SOUND ON</button>
+            <button id="start-btn">START</button>
+        </div>
+        <audio src="sounds/bu.mp3" id="sound-bu" loop></audio>
+        <audio src="sounds/shot.mp3" id="sound-shot"></audio>
+        <div>
+            <div class="counter">HITS:
+                <span id="hit-counter">0</span>
+            </div>
+            <div class="counter">MISS:
+                <span id="miss-counter">0</span>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
